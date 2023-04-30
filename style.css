@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background:rgb(155, 230, 240);
+
+}
+ 
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: black !important;
+}
+#navbarSupportedContent{
+    padding-left: 50%;
+}
+#navbarSupportedContent a{
+    color: black;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid black;
+
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color: rgb(19, 22, 22);
+    
+    
+}
+#home {
+    background: linear-gradient(rgba(44, 44, 43, 0.9),rgba(32, 32, 32, 0.3)),url("img.png");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    color: rgb(223, 241, 241);
+    padding-bottom: 200px;
+}
+#home h1{
+    font-size: 70px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px rgb(235, 217, 217);
+    text-shadow: 0px 3px 0px rgb(235, 217, 217);
+    text-shadow: 0px 3px 0px rgb(235, 217, 217);
+    text-shadow: 0px 3px 0px rgb(235, 217, 217);
+    text-shadow: 0px 3px 0px rgb(235, 217, 217);
+}
+#home p{
+    font-size: 18px;
+    color: aliceblue;
+
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+
+}
+.signin{
+    background: rgb(39, 231, 238) !important;
+    color: azure;
+    
+}
+
+#about{
+    background : linear-gradient(#f39393,#fa7e7e 100%);
+}
+.home button{
+    color: aliceblue;
+}
+#about h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: aliceblue;
+}
+#about h3{
+    font-weight: 800;
+    color:aliceblue;
+    font-weight: 400;
+    font-size: 40px;
+}
+.img-fluid{
+    width: 400px;
+    height: 400px;
+}
+#product{
+    background: rgb(155, 154, 154);
+    text-align: center;
+    padding-bottom: 10px;
+    
+
+}
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align:center;
+     
+}
+#product img{
+    width:200px;
+    height: 200px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background: white !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px rgb(7, 7, 7);
+                 
+                
+    border-radius: 30px !important;
+    overflow:hidden;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 20px auto 20px auto;
+    padding-top: 22px;
+    padding-left: 10px;
+    flex-direction: column;
+    
+    
+    
+
+}
+ 
+.card-body {
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+ 

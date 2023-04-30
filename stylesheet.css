@@ -1,0 +1,64 @@
+*{
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.4s cubic-bezier(0,1.57,.67,1.18);
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #ccc;
+}
+.box{
+    flex:1 1 300;
+    background: #ccc;
+    border: 1px solid rbga(0,0,0,.3);
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+}
+.box .image{
+    padding:10px;
+    background: white;
+    text-align: center;
+}
+.box .image img{
+    height: 200px;
+    width:250px;
+    object-fit: cover;
+    filter:drop-shadow(0 3px 5px rgba(0,0,0,.7));
+}
+.box .info .title{
+    padding:10px;
+    color: #666;
+    font-size: 20px;
+    
+}
+.box .info .sunInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-top: 1px solid rgba();
+}
+
+.box .info .subInfo .price{
+    color: #ff3300;
+    font-size: 20px;
+
+
+}
+.box .info .subInfo .price span{
+    font-size: 15px;
+    color: #999;
+    text-decoration: line-through;
+}
+.box .info .subInfo .star i{
+    color: orange;
+    font-size: 17px;
+
+}
